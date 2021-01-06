@@ -1,0 +1,5 @@
+.App .Cards{
+     display: flex; /*Coloca os cards um do lado do outro */
+    flex-wrap: wrap; /*vai quebrar a linhas nos card*/
+    justify-content: center; /*centralizar os card */
+}

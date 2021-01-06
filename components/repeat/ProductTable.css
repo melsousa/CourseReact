@@ -1,0 +1,13 @@
+.ProductTable {
+    width: 100%;
+}
+
+.ProductTable th {
+    background-color: #3B5998;
+    color: #fff;
+}
+
+.ProductTable .Par {
+    background-color: #ddd;
+    /*deixar zebrado a tabela */
+}
