@@ -1,0 +1,9 @@
+.Input input {
+    font-size: 1.4rem;
+    display: flex;/* está definido que vai usar flexbox */
+    flex-direction: 'column'; /*alinhando a coluna*/
+    width: 100%;
+}
+.Input label{
+    font-size: 1.4rem;
+}

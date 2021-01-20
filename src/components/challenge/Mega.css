@@ -1,0 +1,35 @@
+.Mega label {
+    margin-right: 10px;
+    /*afastando do label */
+}
+
+.Mega input {
+    font-size: 1.4rem;
+    width: 50px;
+}
+
+.Mega h3 {
+    color: #F15D58;
+    text-align: center;
+    display: block;
+    font-size: 1.7rem;
+}
+
+.Mega button {
+    border: none;
+    background-color: #AAAAAA;
+    text-align: center;
+    padding: 5px 32px;
+    height: 50px;
+    display: inline-block;
+    font-size: 1.2rem;
+    border-radius: 12px;
+    color: #fff;
+    margin: 5px;
+    /*distancia do button para outras tags */
+}
+
+.Mega button:hover{
+    background-color: #cccccc;
+    color: #fff;
+}

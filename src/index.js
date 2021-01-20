@@ -1,17 +1,28 @@
+//USANDO REACT E JSX
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
+import ReactDom from 'react-dom';
+
+import './index.css'; //arquivo css
+
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+ReactDom.render( 
+    <App> </App>, //jsx
+     document.getElementById('root')
+  
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+)
+
+// USANDO REACT-DOM
+
+// import ReactDom from 'react-dom';
+// //serve para redenrizar, mostrar algo na tela
+
+// // pegando a div do indexedDB.html
+// const el = document.getElementById('root');
+
+// //o 1º parametro serve para colocar o 
+// // que eu quero renderizar na tela
+// //o 2º é para onde eu quero inserir o que 
+// // eu renderizei
+// ReactDom.render('OLá React', el);
